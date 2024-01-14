@@ -1,0 +1,99 @@
+body {
+  /* background: lightseagreen; */
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/433/original/background.jpg?1696764807");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  font-family: cursive;
+  font-weight: 500;
+}
+.dark-theme {
+  background: #c3195d;
+}
+.dark-theme .container {
+  background: #feffdf;
+  color: green;
+}
+.dark-theme a {
+  color: #c3195d;
+}
+.dark-theme button {
+  background: green;
+  color: #fff;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 12px 18px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  background: #c50d66;
+  color: #fff;
+  transition: all 200ms ease-in;
+}
+button:hover {
+  background: aliceblue;
+  color: #000;
+  cursor: pointer;
+}
+img {
+  width: 190px;
+  height: 150px;
+  border: none;
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+img:hover {
+  transform: scale(1.1);
+}
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.container {
+  max-width: 800px;
+  background: aliceblue;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 15px;
+  padding: 15px 20px;
+}
+.gallery {
+  display: grid;
+  margin: 20px 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.crochet-image {
+  width: 700px;
+  height: 400px;
+  display: block;
+  margin: 20px auto;
+  transition: all 200ms ease-in-out;
+}
+.crochet-image:hover {
+  filter: contrast(80%);
+  transform: scale(1.1);
+}
+.learn-crochet {
+  border-radius: 30px;
+  padding: 10px 27px;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  margin: 20px auto 0px;
+  font-weight: 600;
+  font-size: 18px;
+}
